@@ -1,0 +1,128 @@
+*{
+    font-family: 'Nunito', sans-serif;
+}
+body{
+    background: var(--background-login);
+}
+
+main{
+    display: flex;
+}
+
+.login{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.login__message, .login__form{
+    width: 43%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.login__message{
+    gap:17px;
+}
+
+.message__hello, .message__paragraph{
+    color: var(--text-secondary);
+    font-weight: 400;
+}
+
+.message__hello{
+    font-size: 3.75rem;
+}
+
+.message__paragraph{
+    font-size: 1rem;
+    width: 70%;
+    line-height: 20.28px;
+    
+}
+
+
+.login__form{
+    width: 50%;
+    height: 38vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 33px;
+}
+
+.form__title{
+    font-weight: 400;
+    font-size: 1.875rem;
+    width: 85%;
+    text-align: start;
+}
+
+.form__title, .div__input::placeholder{
+    color: var(--text-secondary);
+}
+
+.form__div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.div__input{
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 50px;
+    height: 60px;
+    width: 379px;
+    color: var(--text-secondary);
+    padding-left: 20px;
+    font-size: 1rem;
+}
+
+.div__input::placeholder{
+    font-weight: 400;
+    font-size: 1rem;
+    width: 90%;
+}
+
+
+/* .div__img{
+    position: relative;
+    left: -100px;
+} */
+
+.form__btnDiv{
+    width: 90%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.form__btn{
+    width: 100%;
+    height: 6.4vh;
+    border-radius: 50px;
+    background: var(--background-btn);
+    color: white;
+    font-size: 1.125rem;
+    font-weight: 700;
+    border: none;
+}
+
+
+.imgBox{
+    height: 100%;
+    width: 50%;
+}
+
+.imgBox__img{
+    height: 100%;
+    width: 100%;
+}
