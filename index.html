@@ -23,12 +23,15 @@
             <form action="" class="login__form">
                 <h2 class="form__title">Login</h2>
                 <div class="form__div">
-                    <input class="div__input" type="text" name="user" placeholder="Usuário" required>
+                    <input class="div__input" type="email" name="user" placeholder="Usuário" required>
                     <img class="div__img" src="./assets/imgs/login/user.svg" alt="">
                 </div> 
                 <div class="form__div">
                     <input class="div__input" type="password" name="password" placeholder="Senha" required>
                     <img class="div__img" src="./assets/imgs/login/password.svg" alt="">
+                </div>
+                <div class="form__warning">
+                    <p class="warning__paragraph">Ops, usuário ou senha inválidos. Tente novamente!</p>
                 </div>
                 <div class="form__btnDiv">
                     <button class="form__btn">Continuar</button>

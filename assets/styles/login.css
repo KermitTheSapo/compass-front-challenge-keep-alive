@@ -73,6 +73,22 @@ main{
     justify-content: space-evenly;
 }
 
+.form__warning{
+    width: 90%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.warning__paragraph{
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 20.28px;
+    text-align: center;
+    width: 60%;
+    color: var(--warning-paragraph);
+}
+
 .div__input{
     background-color: transparent;
     border: 1px solid white;
@@ -82,6 +98,10 @@ main{
     color: var(--text-secondary);
     padding-left: 20px;
     font-size: 1rem;
+}
+
+.div__input--warning{
+    border: 1px solid var(--warning-paragraph);
 }
 
 .div__input::placeholder{

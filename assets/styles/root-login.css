@@ -3,4 +3,6 @@
     --text-secondary: #E0E0E0;
     --background-login: linear-gradient(180deg, #33383D 0%, #1C1D20 100%);
     --background-btn: linear-gradient(90deg, #FF2D04 0%, #C13216 100%);
+    --warning-paragraph:#E9B425;
+
 }
