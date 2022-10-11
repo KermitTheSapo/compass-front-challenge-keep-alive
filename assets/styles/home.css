@@ -1,3 +1,202 @@
 *{
     font-family: 'Nunito', sans-serif;
 }
+
+body{
+    background-color: var(--background-home);
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 16vh;
+    font-family: 'Nunito', sans-serif;
+}
+
+.figureImg{
+    padding-top: 25px;
+    padding-left: 40px;
+}
+
+/* .figureImg__img{
+
+} */
+
+.time{
+    height: 100%;
+    display: flex;
+    align-items: center; 
+    justify-content: flex-end;
+    flex-direction: column;
+}
+.time__hour{
+    font-weight: 700;
+    font-size: 9rem;
+    color: var(--text-secondary);
+}
+.time__day{
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: var(--text-secondary);
+}
+
+
+.weather{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 25px;
+    padding-right: 41px;
+}
+
+.weather__localization{
+    font-weight: 400;
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+}
+
+.weather__div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.weather__img{
+    height: 34px;
+    width: 34px;
+}
+
+.weather__temperature{
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* .figureCompass{
+    height: 100%;
+    border: solid;
+}
+
+.figureCompass_img{
+    border: solid;
+    height: 100%;
+} */
+
+.mission{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    height: 40vh;
+    padding-right: 134px;
+}
+.mission__name{
+    font-weight: 700;
+    font-size: 2.25rem;
+    color: var(--text-primary);
+}
+.mission__title{
+    font-size: 4rem;
+    color: var(--text-primary);
+    font-weight: 700;
+}
+.mission__paragraph{
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: var(--text-secondary);
+}
+
+footer{
+    background: var(--background-footer);
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    height: 9.2vh;
+    font-family: 'Nunito', sans-serif;
+}
+
+.footer__paragraph{
+    text-align: end;
+    width: 45%;
+    color: white;
+    padding-left: 354px;
+}
+
+.footer__border{
+    margin-left: 35px;
+    height: 80%;
+    width: 1px;
+    background-color: white;
+}
+
+.counter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    color: white;
+    gap: 33px;
+}
+
+.counter__paragraph{
+    font-size: 0.875rem;
+    text-align: end;
+    width: 20%;
+    line-height: 17.75px;
+    font-weight: 400;
+}
+
+.counter__div{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: space-evenly;
+}
+
+.counter__time{
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.counter__seconds{
+    font-size: 0.875rem;
+    font-weight: 400;
+}
+
+.loginLogout{
+    display: flex;
+    height: 100%;
+    width: 262px;
+}
+
+.loginLogout__login, .loginLogout__logout{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginLogout__login{
+    background-color: white;
+}
+
+/* .loginLogout__logout{
+} */
+
+.login__text{
+    text-align: center;
+    color: var(--link-primary);
+}
+
+.logout__text{
+    font-weight: 700;
+    font-size: 0.75rem;
+    color: white;
+}
