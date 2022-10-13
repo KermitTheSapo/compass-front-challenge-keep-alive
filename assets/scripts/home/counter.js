@@ -1,5 +1,5 @@
 const timer = document.querySelector(".counter__time")
-var counter = 10
+var counter = 601
 
 var time = setInterval(() =>{
     if(counter > 0) {
@@ -12,6 +12,10 @@ var time = setInterval(() =>{
         if(result === "sim" || result === "Sim" || result === "SIM" || result === "s" || result === "S"){
             location.reload()
         } else if (result === "nao" || result === "Nao" || result === "NAO" || result === "n" || result === "N"){
+            localStorage.clear()
+            document.location.pathname = "/index.html"
+        } else{
+            alert("Comando inválido")
             localStorage.clear()
             document.location.pathname = "/index.html"
         }
