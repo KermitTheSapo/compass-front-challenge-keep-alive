@@ -19,6 +19,8 @@ btn.addEventListener("click", (e) =>{
         inputName.setAttribute("style", "border: 1px solid var(--warning-paragraph);")
         inputPassword.setAttribute("style", "border: 1px solid var(--warning-paragraph);")
         warning.setAttribute("style", "display: flex")
+        passwordImg.classList.remove("div__img__user--change")
+        userImg.classList.remove("div__img__user--change")
     } else{
         inputName.setAttribute("style", "border: 1px solid white;")
         inputPassword.setAttribute("style", "border: 1px solid white;")
