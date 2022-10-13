@@ -100,6 +100,11 @@ main{
     font-size: 1rem;
 }
 
+.div__img__user--change, .div__img__password--change{
+    position: relative;
+    left: -70px;
+}
+
 .div__input--warning{
     border: 1px solid var(--warning-paragraph);
 }
@@ -139,4 +144,68 @@ main{
 .imgBox__img{
     height: 100%;
     width: 100%;
+}
+@media screen and (max-width: 800px) {
+    main{
+        flex-direction: column;
+    }
+    .login{
+        flex-direction: column;
+        width: 100%;
+    }
+    .login__message{
+        width: 70%;
+        height: 35vh;
+        gap:0px;
+        justify-content: center;
+    }
+    .message__paragraph{
+        width: 100%;
+    }
+    .login__form{
+        width: 90%;
+        height: auto;
+        padding-bottom: 15px;
+    }
+    .div__input__password, .div__input__name{
+        width: 75%;
+    }
+    .form__title{
+        width: 90%;
+    }
+    .imgBox{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 600px) {
+    main{
+        flex-direction: column;
+    }
+    .login{
+        flex-direction: column;
+        width: 100%;
+    }
+    .login__message{
+        width: 70%;
+        height: 35vh;
+        gap:0px;
+        justify-content: center;
+    }
+    .message__paragraph{
+        width: 100%;
+    }
+    .login__form{
+        width: 90%;
+        height: auto;
+        padding-bottom: 15px;
+    }
+    .div__input__password, .div__input__name{
+        width: 75%;
+    }
+    .form__title{
+        width: 90%;
+    }
+    .imgBox{
+        width: 100%;
+    }
 }

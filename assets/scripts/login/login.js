@@ -25,9 +25,6 @@ btn.addEventListener("click", (e) =>{
         warning.setAttribute("style", "display: none")
         document.location.pathname = "/home.html"
     }
-
-
-
     const item = {
         login: inputName.value,
         password: inputPassword.value
@@ -41,14 +38,16 @@ btn.addEventListener("click", (e) =>{
 
 inputName.addEventListener("change", (e) =>{
     if(e.target.value.length > 0){
-        userImg.setAttribute("style", "left: -70px;")
-        userImg.style.position = "relative"
+        userImg.classList.add("div__img__user--change")
+    } else{
+        userImg.classList.remove("div__img__user--change")
     }
 })
 
 inputPassword.addEventListener("change", (e) =>{
     if(e.target.value.length > 0){
-        passwordImg.setAttribute("style", "left: -70px;")
-        passwordImg.style.position = "relative"
-    }    
+        passwordImg.classList.add("div__img__user--change")
+    } else{
+        passwordImg.classList.remove("div__img__user--change")
+    }
 })
