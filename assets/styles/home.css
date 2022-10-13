@@ -206,3 +206,109 @@ footer{
     font-size: 0.75rem;
     color: white;
 }
+@media screen and (min-width: 2200px) {
+    main{
+        height: 74.8vh;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .time__hour{
+        font-size: 7.5rem;
+    }
+    .figureCompass{
+        height: 90%;
+        display: flex;
+        align-items: flex-end;
+    }
+    .figureCompass_img{
+        width: 80%;
+    }
+    main{
+        height: 74.8vh;
+    }
+    .mission__title{
+        font-size: 3rem;
+        text-align: end;
+    }
+    .mission__paragraph{
+        text-align: end;
+    }
+    .mission{
+        padding-right: 0px;
+    }
+    .footer__paragraph{
+        padding-top: 0px;
+        padding-left: 0px;
+        width: 60%;
+    }
+    .counter__paragraph{
+        width: 30%;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    header{
+        flex-direction: column;
+        align-items: center;
+        height: 45vh;
+        width: 100%;
+    }
+    .figureCompass{
+        display: none;
+    }
+    main{
+        height: 80vh;      
+    }
+    .time{
+        height: auto;
+    }
+    .time__hour{
+        font-size: 7.5rem;
+    }
+    .figureImg{
+        padding-top: 10px;
+        padding-left: 0px;
+    }
+    .weather{
+        padding-top: 0px;
+        padding-right: 0px;
+    }
+    .mission{
+        padding-right: 0px;
+        align-items: flex-end;
+        gap: 20px;
+    }
+    .mission__title{
+        font-size: 2rem;
+        text-align: end;
+    }
+    .mission__paragraph{
+        text-align: end;
+    }
+    footer{
+        flex-direction: column;
+        height: 50vh;
+        gap:20px;
+    }
+    .footer__paragraph{
+        padding-top: 15px;
+        padding-left: 0px;
+        width: 100%;
+        text-align: center;
+    }
+    .footer__border{
+        margin-left: 0px;
+        height: 1px;
+        width: 90%;
+        background-color: white;
+    }
+    .counter{
+        width: 100%;
+    }
+    .loginLogout{
+        width: 90%;
+        height: 20%;
+    }
+}

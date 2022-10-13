@@ -145,12 +145,73 @@ main{
     height: 100%;
     width: 100%;
 }
+
+@media screen and (min-width: 2200px) {
+    main{
+        height: 99.7vh;
+    }
+    .login__message{
+        width: 72%;
+    }
+    .message__hello{
+        font-size: 3.5rem;
+    }
+    .message__paragraph{
+        font-size: 2rem;
+        line-height: 35px;
+    }
+    .login__form{
+        width: 80%;
+    }
+    .form__title{
+        width: 85%;
+        font-size: 2.5rem;
+    }
+    .div__input__name, .div__input__password{
+        width: 80%;
+    }
+    .div__img__user--change, .div__img__password--change{
+        left: -100px;
+    }
+}
+
+@media screen and (max-width: 1440px){
+    .div__input__name, .div__input__password{
+        width: 80%;
+    }
+    .div__img__user--change, .div__img__password--change{
+        left: -50px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    main{
+        height: 99.6vh;
+    }
+    .login__message{
+        width: 60%;
+    }
+    .message__paragraph{
+        width: 90%;
+    }
+    .login__form{
+        width: 80%;
+    }
+    .div__input__name, .div__input__password{
+        width: 80%;
+    }
+    .div__img__user--change, .div__img__password--change{
+        left: -60px;
+    }
+}
+
 @media screen and (max-width: 800px) {
     main{
         flex-direction: column;
     }
     .login{
         flex-direction: column;
+        height: 60%;
         width: 100%;
     }
     .login__message{
@@ -171,10 +232,24 @@ main{
         width: 75%;
     }
     .form__title{
-        width: 90%;
+        width: 85%;
     }
     .imgBox{
+        height: 40%;
         width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .imgBox__img{
+        height: 90%;
+        width: 60%;
+    }
+    .div__img__user--change, .div__img__password--change{
+        left: -100px;
+    }
+    .form__warning{
+        width: 60%;
     }
 }
 @media screen and (max-width: 600px) {
@@ -207,5 +282,8 @@ main{
     }
     .imgBox{
         width: 100%;
+    }
+    .div__img__user--change, .div__img__password--change{
+        left: -50px;
     }
 }
