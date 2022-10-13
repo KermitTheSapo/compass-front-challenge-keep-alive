@@ -18,7 +18,6 @@ window.addEventListener('load', () => {
         alert('navegador não suporta aaaa');
     }
     function setPosition(position) {
-        console.log(position)
         let lat = position.coords.latitude;
         let long = position.coords.longitude;
         coordResults(lat, long);
@@ -44,13 +43,8 @@ function coordResults(lat, long) {
         });
 }
 function displayResults(weather) {
-    console.log(weather)
-
     localization.innerHTML = `${weather.name} - ${weather.sys.country}`;
-    console.log(weather.sys)
-
     let iconName = weather.weather[0].icon;
-    console.log(iconName)
     img.setAttribute("src", `./assets/imgs/home/header/icons/${iconName}.png`)
 
     let temperature = `${Math.round(weather.main.temp)}`

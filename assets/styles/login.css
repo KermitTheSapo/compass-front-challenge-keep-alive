@@ -62,7 +62,7 @@ main{
     text-align: start;
 }
 
-.form__title, .div__input::placeholder{
+.form__title, .div__input__name::placeholder, .div__input__password::placeholder{
     color: var(--text-secondary);
 }
 
@@ -89,7 +89,7 @@ main{
     color: var(--warning-paragraph);
 }
 
-.div__input{
+.div__input__password, .div__input__name{
     background-color: transparent;
     border: 1px solid white;
     border-radius: 50px;
@@ -104,17 +104,11 @@ main{
     border: 1px solid var(--warning-paragraph);
 }
 
-.div__input::placeholder{
+.div__input__password::placeholder, .div__input__name::placeholder{
     font-weight: 400;
     font-size: 1rem;
     width: 90%;
 }
-
-
-/* .div__img{
-    position: relative;
-    left: -100px;
-} */
 
 .form__btnDiv{
     width: 90%;

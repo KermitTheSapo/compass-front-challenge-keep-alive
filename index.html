@@ -20,15 +20,15 @@
                 <h1 class="message__hello">Olá, </h1>
                 <p class="message__paragraph">Para continuar navegando de forma segura, efetue o login na rede.</p>
             </div>
-            <form action="" class="login__form">
+            <form class="login__form">
                 <h2 class="form__title">Login</h2>
                 <div class="form__div">
-                    <input class="div__input" type="email" name="user" placeholder="Usuário" required>
-                    <img class="div__img" src="./assets/imgs/login/user.svg" alt="">
+                    <input class="div__input__name" type="text" name="user" placeholder="Usuário" required autocomplete="off">
+                    <img class="div__img__user" src="./assets/imgs/login/user.svg" alt="">
                 </div> 
                 <div class="form__div">
-                    <input class="div__input" type="password" name="password" placeholder="Senha" required>
-                    <img class="div__img" src="./assets/imgs/login/password.svg" alt="">
+                    <input class="div__input__password" type="password" name="password" placeholder="Senha" required autocomplete="off">
+                    <img class="div__img__password" src="./assets/imgs/login/password.svg" alt="">
                 </div>
                 <div class="form__warning">
                     <p class="warning__paragraph">Ops, usuário ou senha inválidos. Tente novamente!</p>
@@ -42,5 +42,7 @@
             <img class="imgBox__img" src="./assets/imgs/login/compass.png" alt="">
         </figure>
     </main>
+    <script src="./assets/scripts/login/login.js"></script>
+    
 </body>
 </html>
