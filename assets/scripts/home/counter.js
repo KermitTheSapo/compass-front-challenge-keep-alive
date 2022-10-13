@@ -8,19 +8,16 @@ var time = setInterval(() =>{
     }
     if (counter === 0) {
         clearInterval(time)
-        var result = prompt("permanecer logado? (Sim - Reinicia o contador / Não - Da Logout e redireciona para a página de login)")
-        if(result === "sim" || result === "Sim" || result === "SIM" || result === "s" || result === "S"){
+        var result = confirm("Permanecer logado? (Ok - Reinicia o contador / Cancelar - Da Logout e redireciona para a página de login)")
+        if(result === true){
             location.reload()
-        } else if (result === "nao" || result === "Nao" || result === "NAO" || result === "n" || result === "N"){
-            localStorage.clear()
-            document.location.pathname = "/index.html"
-        } else{
-            alert("Comando inválido")
+        } else if (result === false){
             localStorage.clear()
             document.location.pathname = "/index.html"
         }
     }
 }, 1000)
+
 
 
 
