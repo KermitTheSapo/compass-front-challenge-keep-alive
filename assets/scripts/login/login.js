@@ -42,6 +42,7 @@ inputName.addEventListener("change", (e) =>{
         userImg.classList.add("div__img__user--change")
     } else{
         userImg.classList.remove("div__img__user--change")
+        userImg.classList.add("div__img__user--off")
     }
 })
 
@@ -50,5 +51,6 @@ inputPassword.addEventListener("change", (e) =>{
         passwordImg.classList.add("div__img__user--change")
     } else{
         passwordImg.classList.remove("div__img__user--change")
+        passwordImg.classList.add("div__img__user--off")
     }
 })

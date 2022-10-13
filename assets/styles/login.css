@@ -99,10 +99,33 @@ main{
     padding-left: 20px;
     font-size: 1rem;
 }
+.div__img__password--off, .div__img__user--off{
+    position: relative;
+    animation: out 1s;
+}
+
+@keyframes out {
+    from {
+        left: -70px;
+    }
+    to{
+        left: 0px;
+    }
+}
+
 
 .div__img__user--change, .div__img__password--change{
     position: relative;
-    left: -70px;
+    animation: on 1s;
+    animation-fill-mode: forwards;
+}
+@keyframes on {
+    from {
+        left: 0px;
+    }
+    to{
+        left: -70px;
+    }
 }
 
 .div__input--warning{
