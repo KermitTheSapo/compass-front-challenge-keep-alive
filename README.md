@@ -47,26 +47,26 @@ A website that promotes greater integration and centralization of functionality 
 ## Features
 
 - [ ] Login
-    - [ ] Structure
-    - [ ] stylization
+    - [X] Structure
+    - [X] stylization
     - [ ] responsive design
-    - [ ] Save credentials to localStorage
-- [ ] Login Filled
-    - [ ] Logic to change the icons (animation of the icons)
-- [ ] Login Error
-    - [ ] Form validation with mockup - mock
-    - [ ] error message
-    - [ ] border with another color
+    - [X] Save credentials to localStorage
+- [X] Login Filled
+    - [X] Logic to change the icons (animation of the icons)
+- [X] Login Error
+    - [X] Form validation with mockup - mock
+    - [X] error message
+    - [X] border with another color
 - [ ] Home
-    - [ ] Time and day of the week
-    - [ ] climate and location
-    - [ ] Structure
-    - [ ] stylization
+    - [X] Time and day of the week
+    - [X] climate and location
+    - [X] Structure
+    - [X] stylization
     - [ ] responsive design
-    - [ ] refresh with time
-    - [ ] link to uol news
-    - [ ] logout and localStorage remove
-    - [ ] Popup -> Stay Logged In (Yes / No - Clear localStorage)
+    - [X] refresh with time
+    - [X] link to uol news
+    - [X] logout and localStorage remove
+    - [X] Popup -> Stay Logged In (Yes / No - Clear localStorage)
 
 ---
 
