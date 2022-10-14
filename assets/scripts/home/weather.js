@@ -5,7 +5,7 @@ const div = document.querySelector(".weather__div")
 
 const api = {
     key: "58fe4a5ee25b4aa4b28102127221210",
-    base: "http://api.weatherapi.com/v1",
+    base: "https://api.weatherapi.com/v1",
 }
 
 window.addEventListener('load', () => {
