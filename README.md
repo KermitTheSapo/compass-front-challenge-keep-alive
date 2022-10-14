@@ -26,7 +26,7 @@
   </a>
 
 <h4 align="center"> 
-	 Status: Doing
+	 Status: Done
 </h4>
 
 <p align="center">
@@ -46,10 +46,10 @@ A website that promotes greater integration and centralization of functionality 
 
 ## Features
 
-- [ ] Login
+- [X] Login
     - [X] Structure
     - [X] stylization
-    - [ ] responsive design
+    - [X] responsive design
     - [X] Save credentials to localStorage
 - [X] Login Filled
     - [X] Logic to change the icons (animation of the icons)
@@ -57,12 +57,12 @@ A website that promotes greater integration and centralization of functionality 
     - [X] Form validation with mockup - mock
     - [X] error message
     - [X] border with another color
-- [ ] Home
+- [X] Home
     - [X] Time and day of the week
     - [X] climate and location
     - [X] Structure
     - [X] stylization
-    - [ ] responsive design
+    - [X] responsive design
     - [X] refresh with time
     - [X] link to uol news
     - [X] logout and localStorage remove
