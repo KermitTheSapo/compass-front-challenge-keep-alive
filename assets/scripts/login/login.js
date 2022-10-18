@@ -15,7 +15,7 @@ const registeredLogin = {
 btn.addEventListener("click", (e) =>{
     e.preventDefault()
 
-    if(!(inputName.value === registeredLogin.name) && !(inputPassword.value === registeredLogin.password)){ 
+    if(!(inputName.value === registeredLogin.name) || !(inputPassword.value === registeredLogin.password)){ 
         inputName.setAttribute("style", "border: 1px solid var(--warning-paragraph);")
         inputPassword.setAttribute("style", "border: 1px solid var(--warning-paragraph);")
         warning.setAttribute("style", "display: flex")
