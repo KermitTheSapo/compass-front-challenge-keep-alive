@@ -1,5 +1,5 @@
 const timer = document.querySelector(".counter__time")
-var counter = 31
+var counter = 601
 
 var time = setInterval(() =>{
     if(counter > 0) {

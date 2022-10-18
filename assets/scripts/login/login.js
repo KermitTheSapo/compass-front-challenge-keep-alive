@@ -32,8 +32,6 @@ btn.addEventListener("click", (e) =>{
         password: inputPassword.value
     }
     localStorage.setItem("name", JSON.stringify(item))
-    inputName.value = ""
-    inputPassword.value = ""
 })
 
 
